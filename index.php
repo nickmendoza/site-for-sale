@@ -56,10 +56,10 @@ ob_start();
 <div id="divMainText" class="text-center">
     <h1><?= $bodyTitle; ?></h1>
     <h2><?= $contactText; ?></h2>
-    <p>&copy; <?= date('Y') . " {$domain}"; ?>.
-        Template provided by <a href="http://mobilecodemedia.com">MobileCodeMedia.com</a>
-    </p>
+    <p>&copy; <?= date('Y') . " {$domain}"; ?></p>
 </div>
+
+<!-- Template Provided by Mobile Code Media http://mobilecodemedia.com -->
 
 </body>
 </html>
